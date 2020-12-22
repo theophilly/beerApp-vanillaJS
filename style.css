@@ -12,10 +12,12 @@ nav {
   background-color: #00d1b2;
   align-items: center;
 }
+
 nav .logo {
   font-size: 2.2rem;
   margin-left: 10px;
   font-family: "Poppins", sans-serif;
+  cursor: pointer;
 }
 nav ul {
   display: flex;
@@ -25,6 +27,7 @@ ul li {
   list-style: none;
   padding-left: 1rem;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 input {
   width: 50%;
@@ -105,4 +108,54 @@ p {
   right: 8%;
   font-size: 0.8rem;
   color: #5ae0cc;
+}
+
+.noBeer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.goBackBtn {
+  height: 55px;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 20px;
+
+  width: 300px;
+  background-color: #3273dc;
+  color: white;
+  margin: 50px 0;
+  cursor: pointer;
+}
+
+@media Screen and (max-width: 490px) {
+  nav {
+    height: 7vh;
+  }
+  nav .logo {
+    font-size: 1.2rem;
+  }
+  ul li {
+    font-size: 1rem;
+  }
+  .search {
+    height: 100px;
+  }
+  button {
+    height: 30px;
+  }
+  input {
+    height: 30px;
+  }
+  img {
+    margin-left: 5px;
+    margin-right: 20px;
+  }
+  .beer {
+    width: 380px;
+    height: 170px;
+  }
+  .goBackBtn {
+    height: 30px;
+  }
 }
