@@ -2,7 +2,7 @@
 This is one of the many projects I took up to fine tune my skill in frontend developement, It was a screenshot of a project completed by someone in a forum, I found it intresting so I took it up. This is written in vanilla javascript, but I have also converted it to a [React js app](https://github.com/theophilly/beerApp-react)
 
 ## demo
-![Demo](./Goldberg.png)
+![Demo](./Goldgerg.png)
 run the demo here https://theophilly.github.io/beerApp-vanillaJS/
 
 ## Built with
