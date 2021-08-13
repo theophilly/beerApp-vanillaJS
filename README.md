@@ -9,7 +9,7 @@ run the demo here https://theophilly.github.io/beerApp-vanillaJS/
 - Html
 - Css
 - Javascript
--[Punk api](https://api.punkapi.com)
+- [Punk api](https://api.punkapi.com)
 
 ## limitations
 This project is just a pratice project on the frontend, hence there is no backend or much fancy stuff
